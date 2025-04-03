@@ -1,1 +1,2 @@
-# Compu3
+# Mi primer tp
+## Primera practica de codigos
