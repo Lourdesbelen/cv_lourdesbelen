@@ -3,7 +3,74 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
+
 body {
-    font-family: "Poppins";
+    background-color: black;
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 4rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.marca {
+    font-size: 12rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.guion {
+    font-size: 16rem;
+    margin-right: -1rem;
+}
+
+.anio {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: left;
+    padding: 2rem 4rem;
+    font-size: 1rem;
 }
