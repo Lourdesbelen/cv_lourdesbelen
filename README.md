@@ -1,2 +1,2 @@
 # Mi primer tp
-## Primera practica de codigos
+## Estuve avanzando en correcciones del index e hice la pagina "sobre mi"
