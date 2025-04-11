@@ -16,24 +16,25 @@ body {
     justify-content: space-between;
 }
 
+/*------------------HEADER------------------*/
 header {
     display: flex;
     justify-content: flex-end;
-    padding: 4rem 5rem;
+    padding: 48px 80px;
 }
 
 nav ul {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     list-style: none;
 }
 
 nav a {
     color: white;
     border: 1px solid white;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 24px;
     transition: background 0.3s;
 }
 
@@ -42,154 +43,158 @@ nav a:hover {
     color: black;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
+/*------------------SECCION ROSA------------------*/
+.hero {
+    background:#ffafcc;
+    text-align: center;
+    padding: 272px;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 230px;
+    color: black;
+}
+
+.hero h1 {
+    font-weight: 450;
+}
+
+.hero p{
+    font-size: 64px;
+    margin-top: -64px;
+    font-family: "Funnel Display", sans-serif;
+    text-align: end;
+}
+
+/*------------------SECCION NEGRA------------------*/
+.intro h2 {
+    font-size: 112px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    margin-top: 160px;
     text-align: center;
 }
 
-.marca {
-    font-size: 23rem;
-    font-weight: 300;
-    margin-right: 6rem;
-    gap: 1rem; 
-}
-
-.guion {
-    font-size: 16rem;
-    margin-right: 1rem;
-}
-
-.bajada {
-    font-size: 1.7rem;
-    margin-left: 45rem;
-    margin-top: -3rem;
-}
-
-footer {
-    text-align: left;
-    padding: 2rem 4rem;
-    font-size: 1rem;
-}
-
-/*------------------Sobre mi------------------*/
-.intro-sobremi h1 {
-    font-size: 7rem;
-    font-weight: 400;
-    margin-bottom: 10rem;
-    margin-top: 20rem;
-}
-
-.presentacion-sobremi {
+.contenedor {
     display: flex;
     align-items: flex-start;
-    gap: 2rem;
-    margin-bottom: 4rem;
+    gap: 608px;
+    flex-wrap: wrap;
+
 }
 
-.presentacion-sobremi img {
+.contenedor img {
     width: 220px;
-    margin: 1rem;
+    margin: 20px;
+    margin-left: 100px;
 }
 
-.contenido-sobremi {
+.sombra-img {
+    box-shadow: 10px 10px 0px #ffafcc;
+}
+
+.texto {
     max-width: 900px;
-}
+    
+} 
 
-.contenido-sobremi h2{
-    font-size: 2.5rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
+.texto h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
     text-align: left;
-    margin-left: 7rem;
+    margin-left: 50px;
+    color: #ffafcc;
 }
 
-.contenido-sobremi p {
-    line-height: 1.7;
+.texto p {
+    line-height: 28px;
     text-align: left;
     font-family: "popins", sans-serif;
-    font-size: 1.1rem;
-    margin-bottom: 1,2rem;
-    margin-left: 7rem;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 100px;
 }
 
-.datos-sobremi h3 {
-    font-family: "Funnel Display", sans-serif;
-}
-
-.datos-sobremi {
+/*------------------SECCION BLANCA------------------*/
+.datos {
+    border-top: 20px solid #ffafcc;
+    background-color: white;
     font-family: "popins", sans-serif;
     color: black;
     display: flex;
     justify-content: center;
-    gap: 10rem;
-    margin-top: 4rem;
-    padding: 4rem;
-    padding-bottom: 5rem;
-    line-height: 2rem; 
+    gap: 160px;
+    margin-top: 64px;
+    padding: 64px;
+    padding-bottom: 80px;
+    line-height: 32px; 
 }
 
-.color-blanco {
-    background-color: white;
-}
-
-.caja1 {
+.lista {
     display: flex;
+    line-height: 40px;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.cajita {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+.lista li img {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-right: 16px;
 }
 
-.servicios {
+.columna h4 {
+    font-family: "Funnel Display", sans-serif;
+    font-size: 21px;
+}
+
+.texto-servicios {
     font-family: "popins", sans-serif;
     color: black;
-    line-height: 1.7;
+    line-height: 27px;
     text-align: left;
-    margin: 3rem;
-    font-size: 1rem;
+    margin: 48px;
+    font-size: 16px;
     padding-top: 5rem;
     border-top: 1px solid black;
     max-width: 50%;
 }
 
-.contenedorservicios {
+.servicios {
     display: flex;
     justify-content: center;
+    background: white;
+    padding: 48px;
 }
 
-.footer-general {
-    padding: 2rem;
+/*------------------CONTACTO------------------*/
+
+.contacto {
+    padding: 32px;
     background-color: black;
     text-align: center;
     border-top: 1px solid white
 }
 
-.footer-general h2 {
+.contacto h2 {
     font-weight: 300;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: center;
 }
 
-.iconos {
+.footer-info {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 32px;
     flex-wrap: wrap;
 }
 
-.iconos a {
+.footer-info a {
     display: flex;
     align-items: center;
-    gap: 0.5rem; 
+    gap: 8px; 
     color: white;
     text-decoration: none;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
