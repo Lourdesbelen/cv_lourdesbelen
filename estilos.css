@@ -10,8 +10,6 @@ body {
     background-color: black;
     color: white;
     font-family: "Funnel Display", sans-serif;
-    height: 100vh;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -26,7 +24,6 @@ header {
 nav ul {
     display: flex;
     gap: 32px;
-    list-style: none;
 }
 
 nav a {
@@ -47,21 +44,22 @@ nav a:hover {
 .hero {
     background:#ffafcc;
     text-align: center;
-    padding: 272px;
+    height: 70vh;
     font-family: "Funnel Display", sans-serif;
     font-size: 230px;
     color: black;
+    padding-top: 100px;
 }
 
 .hero h1 {
     font-weight: 450;
+    margin-top: 100px;
 }
 
 .hero p{
     font-size: 64px;
-    margin-top: -64px;
+    margin-top: -40px;
     font-family: "Funnel Display", sans-serif;
-    text-align: end;
 }
 
 /*------------------SECCION NEGRA------------------*/
@@ -75,7 +73,6 @@ nav a:hover {
 
 .contenedor {
     display: flex;
-    align-items: flex-start;
     gap: 608px;
     flex-wrap: wrap;
 
@@ -93,24 +90,23 @@ nav a:hover {
 
 .texto {
     max-width: 900px;
-    
+    margin-bottom: 80px;   
 } 
 
 .texto h3 {
     font-size: 40px;
     font-weight: 400;
-    margin-bottom: 16px;
     text-align: left;
     margin-left: 50px;
     color: #ffafcc;
+    line-height: 90px;
 }
 
 .texto p {
-    line-height: 28px;
+    line-height: 30px;
     text-align: left;
-    font-family: "popins", sans-serif;
+    font-family: "Popins", sans-serif;
     font-size: 18px;
-    margin-bottom: 20px;
     margin-left: 100px;
 }
 
@@ -118,7 +114,6 @@ nav a:hover {
 .datos {
     border-top: 20px solid #ffafcc;
     background-color: white;
-    font-family: "popins", sans-serif;
     color: black;
     display: flex;
     justify-content: center;
@@ -137,27 +132,22 @@ nav a:hover {
 }
 
 .lista li img {
-    display: inline-block;
     vertical-align: middle;
-    text-decoration: none;
     margin-right: 16px;
 }
 
 .columna h4 {
-    font-family: "Funnel Display", sans-serif;
     font-size: 21px;
 }
 
 .texto-servicios {
-    font-family: "popins", sans-serif;
+    font-family: "Popins", sans-serif;
     color: black;
     line-height: 27px;
-    text-align: left;
     margin: 48px;
-    font-size: 16px;
     padding-top: 5rem;
-    border-top: 1px solid black;
-    max-width: 50%;
+    border-top: 2px solid black;
+    max-width: 80vh;
 }
 
 .servicios {
@@ -171,9 +161,7 @@ nav a:hover {
 
 .contacto {
     padding: 32px;
-    background-color: black;
-    text-align: center;
-    border-top: 1px solid white
+    border-top: 10px solid #ffafcc;
 }
 
 .contacto h2 {
