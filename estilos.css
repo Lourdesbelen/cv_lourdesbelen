@@ -10,8 +10,8 @@ body {
     background-color: black;
     color: white;
     font-family: "Funnel Display", sans-serif;
-    height: 100vh;
-    display: flex;
+    height: 100vh; /* esto no hace ningún cambio */
+    display: flex;  /* no veo necesaria la aplicación de flex en este lugar, a menos que quieras modificar algo en el futuro */
     flex-direction: column;
     justify-content: space-between;
 }
@@ -26,7 +26,7 @@ header {
 nav ul {
     display: flex;
     gap: 32px;
-    list-style: none;
+    list-style: none; /* esto ya se estableció en el selector universal, no repitas */
 }
 
 nav a {
@@ -47,7 +47,7 @@ nav a:hover {
 .hero {
     background:#ffafcc;
     text-align: center;
-    padding: 272px;
+    padding: 272px; /* si hay que poner un padding taaan grande mejor es dudar, probá quitarlo y utilizar flexbox + medidas en vh */
     font-family: "Funnel Display", sans-serif;
     font-size: 230px;
     color: black;
@@ -75,14 +75,14 @@ nav a:hover {
 
 .contenedor {
     display: flex;
-    align-items: flex-start;
-    gap: 608px;
+    align-items: flex-start; /* esta es la propiedad por defecto, no hace falta colocarla */
+    gap: 608px; /* esto es una banda */
     flex-wrap: wrap;
 
 }
 
 .contenedor img {
-    width: 220px;
+    width: 220px; /* en realidad las propiedades de alto y ancho deben ir en el html */
     margin: 20px;
     margin-left: 100px;
 }
@@ -99,9 +99,9 @@ nav a:hover {
 .texto h3 {
     font-size: 40px;
     font-weight: 400;
-    margin-bottom: 16px;
+    margin-bottom: 16px; /* si el h3 y la p van a tener lo mismo, mejor poner un gap en el padre, además es mejor que los espacios sean constantes  */
     text-align: left;
-    margin-left: 50px;
+    margin-left: 50px; /* es más prolijo poner el margin en la etiqueta padre para que todo se ajuste, o aplicar un gap en el div contenedor */
     color: #ffafcc;
 }
 
@@ -118,14 +118,14 @@ nav a:hover {
 .datos {
     border-top: 20px solid #ffafcc;
     background-color: white;
-    font-family: "popins", sans-serif;
+    font-family: "popins", sans-serif; /* esto no está afectando a nada */
     color: black;
     display: flex;
     justify-content: center;
     gap: 160px;
     margin-top: 64px;
     padding: 64px;
-    padding-bottom: 80px;
+    padding-bottom: 80px; /* esto es más prolijo que lo establezcas en un solo lugar para que no te pierdas después con futuras modificaciones, unificalo con la section de abajo o establecé un gap para todas las sections desde el padre */
     line-height: 32px; 
 }
 
@@ -137,27 +137,27 @@ nav a:hover {
 }
 
 .lista li img {
-    display: inline-block;
+    display: inline-block; /* esto ya no va */
     vertical-align: middle;
-    text-decoration: none;
+    text-decoration: none; /* esto no hace nada */
     margin-right: 16px;
 }
 
 .columna h4 {
-    font-family: "Funnel Display", sans-serif;
+    font-family: "Funnel Display", sans-serif; /* esto ya lo estableciste en el body */
     font-size: 21px;
 }
 
 .texto-servicios {
-    font-family: "popins", sans-serif;
+    font-family: "popins", sans-serif; /* no te está tomando esta fuente */
     color: black;
     line-height: 27px;
-    text-align: left;
-    margin: 48px;
-    font-size: 16px;
+    text-align: left; /* esta es la propiedad por defecto, no hace falta aplicarla */
+    margin: 48px; /* unificá esto con el margin de la section padre */
+    font-size: 16px; /* no está afectando */
     padding-top: 5rem;
     border-top: 1px solid black;
-    max-width: 50%;
+    max-width: 50%; /* el max-width es mejor utilizarlo con medidas fijas porque a la hora de pasar a mobile (dentro de un mes) si esta caja es el 50% de la pantalla de un celular no va a verse bien */
 }
 
 .servicios {
@@ -171,9 +171,9 @@ nav a:hover {
 
 .contacto {
     padding: 32px;
-    background-color: black;
-    text-align: center;
-    border-top: 1px solid white
+    background-color: black; /* ya está establecido en el body */
+    text-align: center; /* no está afectando */
+    border-top: 1px solid white /* esto no está afectando y no se ve, también le falta cerrar con ; */
 }
 
 .contacto h2 {
