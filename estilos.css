@@ -69,15 +69,16 @@ nav a:hover {
 
 .contenedor {
     display: flex;
-    gap: 608px;
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 64px;
     flex-wrap: wrap;
 
 }
 
 .contenedor img {
-    width: 220px;
-    margin: 20px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .sombra-img {
