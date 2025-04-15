@@ -117,7 +117,8 @@ nav a:hover {
     margin-top: 64px;
     padding: 64px;
     padding-bottom: 80px;
-    line-height: 32px; 
+    line-height: 40px;
+    font-family: "Poppins", sans-serif;
 }
 
 .lista {
@@ -128,8 +129,11 @@ nav a:hover {
 }
 
 .tiempo {
-    font-family: "Funnel Display", sans-serif;
     color: #ffafcc;
+}
+
+.experiencia {
+    line-height: 25px;
 }
 
 .lista li img {
@@ -139,6 +143,7 @@ nav a:hover {
 
 .columna h4 {
     font-size: 21px;
+    font-family: "Funnel Display", sans-serif;
 }
 
 .texto-servicios {
