@@ -77,10 +77,6 @@ nav a:hover {
     padding: 64px;
 }
 
-.contenedor img {
-    margin-left: 20px;
-}
-
 .sombra-img {
     box-shadow: 10px 10px 0px #ffafcc;
 }
@@ -95,7 +91,7 @@ nav a:hover {
     text-align: left;
     margin-left: 50px;
     color: #ffafcc;
-    line-height: 90px;
+    line-height: 80px;
 }
 
 .texto p {
@@ -113,10 +109,10 @@ nav a:hover {
     color: black;
     display: flex;
     justify-content: center;
-    gap: 160px;
-    margin-top: 64px;
+    gap: 80px;
+    margin-top: 60px;
     padding: 64px;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     line-height: 40px;
     font-family: "Poppins", sans-serif;
 }
@@ -154,6 +150,10 @@ nav a:hover {
     padding-top: 5rem;
     border-top: 2px solid black;
     max-width: 90vh;
+}
+
+.icono {
+    margin-top: 120px;
 }
 
 .servicios {
