@@ -42,7 +42,6 @@ nav a:hover {
     background:#ffafcc;
     text-align: center;
     height: 80vh;
-    font-family: "Funnel Display", sans-serif;
     font-size: 230px;
     color: black;
     display: flex;
@@ -57,7 +56,6 @@ nav a:hover {
 .hero p{
     font-size: 64px;
     margin-top: -40px;
-    font-family: "Funnel Display", sans-serif;
 }
 
 /*------------------SECCION NEGRA------------------*/
