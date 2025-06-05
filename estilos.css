@@ -41,7 +41,7 @@ nav a:hover {
 .hero {
     background:#ffb2c3;
     text-align: center;
-    height: 80vh;
+    height: 88vh;
     font-size: 230px;
     color: #050505;
     display: flex;
@@ -167,14 +167,13 @@ nav a:hover {
 }
 
 /*------------------FOOTER------------------*/
-
 footer {
     background-color: #050505;
     color: #f2f2f2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 15px 200px;
     font-family: "Fira Sans", sans-serif;
     font-size: 10px;
 }
@@ -218,8 +217,17 @@ footer {
     transition: background-color 0.3s, color 0.3s;
 }
 
-
 .contacto-button:hover {
     background-color: #f2f2f2;
     border: 2px solid #f2f2f2;
+}
+
+/*------------------PORTFOLIO------------------*/
+.portfolio h2 {
+    font-size: 112px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 200px;
+    padding: 30px;
+    border-bottom: 20px solid #ffb2c3; 
 }
