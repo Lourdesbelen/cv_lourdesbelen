@@ -7,10 +7,9 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: #050505;
+    color: #f2f2f2; 
     font-family: "Funnel Display", sans-serif;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -19,31 +18,32 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
-    padding: 48px 60px;
+    padding: 30px 60px;
 }
 
 nav a {
-    color: white;
-    border: 1px solid white;
-    padding: 8px 16px;
+    color: #f2f2f2;
+    border: 0.5px solid #f2f2f2;
+    padding: 5px 30px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 15px;
     transition: background 0.3s;
-    margin-right: 30px;
+    margin-right: 50px;
+    font-family: "Fira Sans", sans-serif;
 }
 
 nav a:hover {
-    background: white;
-    color: black;
+    background: #f2f2f2;
+    color: #050505;
 }
 
-/*------------------SECCION ROSA------------------*/
+/*------------------SECCION INDEX------------------*/
 .hero {
-    background:#ffafcc;
+    background:#ffb2c3;
     text-align: center;
     height: 80vh;
     font-size: 230px;
-    color: black;
+    color: #050505;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,12 +58,11 @@ nav a:hover {
     margin-top: -40px;
 }
 
-/*------------------SECCION NEGRA------------------*/
+/*------------------SECCION NEGRA SOBRE MI------------------*/
 .intro h2 {
     font-size: 112px;
     font-weight: 400;
-    margin-bottom: 70px;
-    margin-top: 100px;
+    margin: 200px 0 70px 0;
     text-align: center;
 }
 
@@ -76,7 +75,7 @@ nav a:hover {
 }
 
 .sombra-img {
-    box-shadow: 10px 10px 0px #ffafcc;
+    box-shadow: 10px 10px 0px #ffb2c3;
 }
 
 .texto {
@@ -93,41 +92,40 @@ nav a:hover {
 }
 
 .texto p {
-    line-height: 30px;
+    line-height: 28px;
     text-align: left;
-    font-family: "Poppins", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 18px;
     margin-left: 100px;
 }
 
-/*------------------SECCION BLANCA------------------*/
+/*------------------SECCION BLANCA SOBRE MI------------------*/
 .datos {
-    border-top: 20px solid #ffafcc;
-    background-color: white;
-    color: black;
+    border-top: 20px solid #ffb2c3;
+    background-color: #f2f2f2;
+    color: #050505;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 130px;
     margin-top: 60px;
     padding: 64px;
     padding-bottom: 90px;
     line-height: 40px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 
 .lista {
-    display: flex;
     line-height: 40px;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.tiempo {
-    color: #ffafcc;
+.estudios {
+    line-height: 26px;
 }
 
-.experiencia {
-    line-height: 25px;
+.tiempo {
+    color: #ffb2c3;
 }
 
 .lista li img {
@@ -141,12 +139,12 @@ nav a:hover {
 }
 
 .texto-servicios {
-    font-family: "Poppins", sans-serif;
-    color: black;
+    font-family: "Fira Sans", sans-serif;
+    color: #050505;
     line-height: 27px;
     margin: 48px;
     padding-top: 5rem;
-    border-top: 2px solid black;
+    border-top: 2px solid #050505;
     max-width: 90vh;
 }
 
@@ -157,36 +155,71 @@ nav a:hover {
 .servicios {
     display: flex;
     justify-content: center;
-    background: white;
-    padding: 48px;
+    background: #f2f2f2;
+    padding: 130px;
+    margin-bottom: 10px;
 }
 
-/*------------------CONTACTO------------------*/
-
-.contacto {
-    padding: 32px;
-    border-top: 10px solid #ffafcc;
-}
-
-.contacto h2 {
-    font-weight: 300;
-    font-size: 32px;
-    margin-bottom: 32px;
-    text-align: center;
-}
-
-.footer-info {
+.servicios div {
+    padding-top: 5rem;
     display: flex;
-    justify-content: center;
-    gap: 32px;
     flex-wrap: wrap;
 }
 
-.footer-info a {
+/*------------------FOOTER------------------*/
+
+footer {
+    background-color: #050505;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 10px;
+}
+
+.derechos,
+.redes {
     display: flex;
     align-items: center;
-    gap: 8px; 
-    color: white;
-    text-decoration: none;
-    margin-bottom: 32px;
+    gap: 16px;
+}
+
+.redes span {
+    margin-right: 100px;
+}
+
+.contacto-section {
+    background-color: #ffb2c3;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 200px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.contacto-columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    gap: 10px;
+    font-size: 12px;
+    color: #050505;
+    line-height: 10px;
+}
+
+.contacto-button {
+    border: 2px solid #050505;
+    padding: 10px 100px;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.contacto-button:hover {
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
 }
