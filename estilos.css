@@ -136,6 +136,7 @@ nav a:hover {
 .columna h4 {
     font-size: 21px;
     font-family: "Funnel Display", sans-serif;
+    font-weight: 500;
 }
 
 .texto-servicios {
@@ -230,4 +231,100 @@ footer {
     margin-top: 200px;
     padding: 30px;
     border-bottom: 20px solid #ffb2c3; 
+}
+
+.galeria {
+    background-color: #f2f2f2;
+    padding: 130px;
+}
+
+.contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.columna-galeria {
+    padding-top: 40px;
+}
+
+.columna-galeria img {
+    margin-top: 20px;
+}
+.columna-galeria span {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.columna-galeria h4 {
+    font-size: 18px;
+    font-family: "Funnel Display", sans-serif;
+    color: #050505;
+    font-weight: 500;
+    border-top: 2px solid #ffb2c3;
+    padding-top: 20px;
+}
+
+/*------------------TAPAS------------------*/
+.tapas {
+    display: flex;
+    justify-content: center;
+    border-bottom: 20px solid #ffb2c3;
+    padding: 0;
+    margin: 0;
+}
+
+.tapas img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.coleccion {
+    color: #f2f2f2;
+    padding: 60px 40px;
+    font-family: "Funnel Display", sans-serif;
+    padding: 150px 200px;
+}
+
+.coleccion h2 {
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.descripcion h4 {
+    font-size: 20px;
+    font-family: "Funnel Display", sans-serif;
+    padding: 10px 0;
+    font-weight: 350;
+}
+
+.descripcion p {
+    max-width: 800px;
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 26px;
+}
+
+.fotos-tapas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.ultimo-mock {
+    padding-bottom: 70px;
+    border-bottom: 2px solid #f2f2f2;
 }
