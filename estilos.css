@@ -209,13 +209,23 @@ footer {
     line-height: 10px;
 }
 
+.contacto-columna a {
+    color: #050505;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contacto-columna a:hover {
+    color: #f2f2f2;
+}
+
 .contacto-button {
     border: 2px solid #050505;
     padding: 10px 100px;
     background: transparent;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    transition: 0.3s, color 0.3s;
 }
 
 .contacto-button:hover {
@@ -268,7 +278,7 @@ footer {
 }
 
 /*------------------TAPAS------------------*/
-.tapas {
+.portada {
     display: flex;
     justify-content: center;
     border-bottom: 20px solid #ffb2c3;
@@ -276,7 +286,7 @@ footer {
     margin: 0;
 }
 
-.tapas img {
+.portada img {
     width: 100%;
     height: auto;
     display: block;
@@ -317,7 +327,7 @@ footer {
     line-height: 26px;
 }
 
-.fotos-tapas {
+.fotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
