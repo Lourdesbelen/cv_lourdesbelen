@@ -262,6 +262,11 @@ footer {
 .columna-galeria img {
     margin-top: 20px;
 }
+
+.columna-galeria img:hover {
+    transform: scale(1.05);
+}
+
 .columna-galeria span {
     font-family: "Fira Sans", sans-serif;
     font-size: 18px;
@@ -277,7 +282,7 @@ footer {
     padding-top: 20px;
 }
 
-/*------------------TAPAS------------------*/
+/*------------------FOTOS GALERIA------------------*/
 .portada {
     display: flex;
     justify-content: center;
@@ -337,4 +342,81 @@ footer {
 .ultimo-mock {
     padding-bottom: 70px;
     border-bottom: 2px solid #f2f2f2;
+}
+
+/*------------------FORMULARIO------------------*/
+.formulario-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 100px 110vh;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fila {
+    display: flex;
+    gap: 30px;
+}
+
+.campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.fila input[class="text"],
+input[class="email"],
+input[class="tel"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.mensaje {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    color: white;
+    font-size: 14px;
+}
+
+.mensaje {
+  resize: vertical;
+  height: 80px;
+}
+
+.aceptar {
+    font-size: 14px;
+}
+
+.boton {
+    text-align: right;
+}
+
+.enviar {
+    background: none;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 8px 40px;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s;
+}
+
+.enviar :hover {
+    background: #f2f2f2;
+    color: #050505;
 }
