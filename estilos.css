@@ -334,6 +334,22 @@ footer {
     display: block;
 }
 
+.flecha {
+    animation: moverLado 1s infinite ease-in-out;
+}
+
+@keyframes moverLado {
+    0% {
+        transform: translateX(0);
+}
+    50% {
+        transform: translateX(10px);
+}
+    100% {
+    transform: translateX(0);
+}
+}
+
 .coleccion {
     color: #f2f2f2;
     padding: 60px 40px;
