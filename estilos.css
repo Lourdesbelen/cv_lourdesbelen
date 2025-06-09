@@ -479,4 +479,45 @@ input[class="tel"] {
     background: #f2f2f2;
     color: #050505;
 }
-/*------------------ANIMACION INDEX------------------*/
+
+
+
+
+/*------------------MEDIA SOBRE MI------------------*/
+@media (max-width: 720px) {
+.intro h2 {
+    font-size: 10vw; /* Escala con el ancho de pantalla */
+    margin: 60px 0 30px 0;
+}
+
+.contenedor {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 24px;
+}
+
+.sombra-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto {
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+.texto h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 0;
+    line-height: 2.2rem;
+}
+
+.texto p {
+    font-size: 1rem;
+    margin-left: 0;
+    text-align: center;
+    line-height: 1.6rem;
+}
+}
