@@ -16,23 +16,35 @@ body {
 
 /*------------------HEADER------------------*/
 header {
+    position: fixed;
+    top: 0;                      
+    width: 100%;               
+    z-index: 1000;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
     padding: 30px 60px;
+    box-sizing: border-box;
 }
 
-nav a {
+.logo img {
+    display: block;
+    width: 100px;
+}
+
+.menu a {
     color: #f2f2f2;
     border: 0.5px solid #f2f2f2;
     padding: 5px 30px;
     text-decoration: none;
     font-size: 15px;
-    transition: background 0.3s;
+    transition: background 0.3s, color 0.3s;
     margin-right: 50px;
     font-family: "Fira Sans", sans-serif;
 }
 
-nav a:hover {
+.menu a:hover {
     background: #f2f2f2;
     color: #050505;
 }
@@ -40,22 +52,33 @@ nav a:hover {
 /*------------------SECCION INDEX------------------*/
 .hero {
     background:#ffb2c3;
-    text-align: center;
-    height: 88vh;
-    font-size: 230px;
+    height: 95vh;
+    font-size: 170px;
     color: #050505;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.hero h1 {
+.hero-text {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.hola {
+    display: inline-block;
+    animation: scroll-left 30s linear infinite;
     font-weight: 450;
 }
 
-.hero p{
-    font-size: 64px;
-    margin-top: -40px;
+@keyframes scroll-left {
+    0% {
+    transform: translateX(0%);
+}
+    100% {
+    transform: translateX(-100%);
+}
 }
 
 /*------------------SECCION NEGRA SOBRE MI------------------*/
@@ -240,7 +263,21 @@ footer {
     text-align: center;
     margin-top: 200px;
     padding: 30px;
-    border-bottom: 20px solid #ffb2c3; 
+    display: inline-block;
+    animation: scroll-left 30s linear infinite;
+}
+
+.portfolio {
+    border-bottom: 20px solid #ffb2c3;
+}
+
+@keyframes scroll-left {
+    0% {
+    transform: translateX(0%);
+}
+    100% {
+    transform: translateX(-100%);
+}
 }
 
 .galeria {
@@ -350,6 +387,7 @@ footer {
     flex-direction: column;
     width: 30%;
     margin: 100px 110vh;
+    padding: 30px;
     font-family: "Fira Sans", sans-serif;
 }
 
@@ -399,6 +437,11 @@ input[class="tel"] {
   height: 80px;
 }
 
+.fila-checkbox {
+    display: flex;
+    gap: 20px;
+}
+
 .aceptar {
     font-size: 14px;
 }
@@ -416,7 +459,8 @@ input[class="tel"] {
     transition: 0.3s, color 0.3s;
 }
 
-.enviar :hover {
+.enviar:hover {
     background: #f2f2f2;
     color: #050505;
 }
+/*------------------ANIMACION INDEX------------------*/

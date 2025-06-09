@@ -10,7 +10,12 @@
 
     <body>
         <header>
-            <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logo de Lourdes" width="40px" height="40px">
+                </a>
+            </div>        
+            <nav class="menu">
                 <a href="sobre-mi.html">Sobre mi</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contacto.html">Contacto</a>
@@ -19,7 +24,9 @@
 
     <main>
         <section class="portfolio">
-            <h2>— Escribime *Trabajemos juntos</h2>
+            <div class="hero-text">
+                <h2>— Escribime *Trabajemos juntos — Escribime *Trabajemos juntos — Escribime *Trabajemos juntos — Escribime *Trabajemos juntos</h2>
+            </div>
         </section>
 
         <section>
@@ -50,11 +57,11 @@
                         <textarea class="mensaje"></textarea>
                     </div>
                     <div class="fila-checkbox">
-                        <input type="checkbox" id="terminos"> 
+                        <input type="checkbox">
                         <label class="aceptar">Aceptar términos y condiciones</label>
                     </div>
                     <div class="boton">
-                        <button class="enviar">Enviar</button>
+                        <button type="submit" class="enviar">Enviar</button>
                     </div>
                 </form>
             </div>
