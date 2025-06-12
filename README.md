@@ -14,3 +14,5 @@ El sitio fue trabajado en una resolución de 5120x2880 píxeles (27 pulgadas), y
 
 Aclaración: Sinceramente, esa parte (responsive)me costó bastante, todavía no la manejo del todo bien y me falta mucha práctica. Por eso decidí enfocarme en esas secciones para empezar, y más adelante ir adaptando el resto del sitio.
 En lo personal, este proyecto fue un gran desafío. Si bien algunas cosas ya las venía manejando, otras fueron totalmente nuevas o más complejas de lo que pensaba, sobre todo en cuanto a diseño adaptable y animaciones. Aun así, me siento conforme con lo que logré, porque sé que me sirvió muchísimo para seguir practicando y entendiendo mejor cómo se construye una web completa desde cero.
+
+Link de figma: https://www.figma.com/design/oBb4vAXdmw68vN61672bc1/Portfolio-A%C3%B1asco-Lourdes?node-id=0-1&t=oKtnIP5KGjRJLWYK-1
